@@ -1,0 +1,63 @@
+{
+    "configVersion": "v3",
+    "app": {
+        "appId": 1088385,
+        "appName": "FlowConfig",
+        "appType": "app",
+        "icon": "icon.png",
+        "vender": "",
+        "description": "",
+        "version": {
+            "code": 1,
+            "name": "1.0.0"
+        }
+    },
+    "defaultLanguage": "en-US",
+    "withBundleGlobals": true,
+    "permissions": [
+        "data:os.device.info",
+        "data:user.info"
+    ],
+    "includeAssets": {
+        "mzfw": "./node_modules/mzfw/assets"
+    },
+    "includeRawAssets": {
+        "mzfw": "./node_modules/mzfw/assets_raw"
+    },
+    "targetZeppOS": "3.0.0",
+    "targets": {
+        "base": {
+            "targetZeppOS": "3.0.0",
+            "designWidth": 480,
+            "platforms": [
+                "active",
+                "active_edge",
+                "active_2",
+                "balance",
+                "bip5",
+                "bip6",
+                "bip5unity",
+                "trex_ultra",
+                "cheetah",
+                "cheetah_pro",
+                "cheetah_square",
+                "gtr4",
+                "gtr4le",
+                "gts4",
+                "gts4mini",
+                "falcon",
+                "trex2",
+                "trex3",
+                "balance2",
+                "active_2_square"
+            ],
+            "module": {
+                "page": {
+                    "pages": [
+                        "page/index"
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "FlowConfig",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "build": "zeusx build",
+        "dev": "zeusx dev",
+        "preview": "zeusx preview",
+        "bridge": "zeusx bridge"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@zeppos/device-types": "^3.0.0",
+        "tslib": "^2.8.1",
+        "zosx": ">=0.8.1"
+    },
+    "dependencies": {
+        "mzfw": "^0.2.2"
+    }
+}
