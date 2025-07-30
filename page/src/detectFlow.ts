@@ -3,6 +3,8 @@ import { Path } from "mzfw/device/Path";
 import { FlowConfigureTool } from "./configureFlow";
 
 const ROOT_DASH_PATCH_OPTIONS: Path[] = [
+  // Balance (1) and others edition (1.7)
+  new Path("full", "/storage/js_apps/data/000FD7EA"),
   // T-Rex Ultra, Cheetah and others edition (1.7)
   new Path("full", "/storage/js_apps/data/00105A2C"),
   // Active 2 edition (1.8)

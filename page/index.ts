@@ -7,7 +7,7 @@ import { ListItem, ListView, SectionHeaderComponent } from "mzfw/device/UiListVi
 import { Component } from "mzfw/device/UiComponent";
 import { ICON_SIZE } from "mzfw/device/UiProperties";
 import { ScreenBoard } from "mzfw/device/ScreenBoard";
-import { UNSUPPORTED_REGIONS } from "./src/constants";
+import { UNSUPPORTED_REGIONS, VERSION } from "./src/constants";
 import { FlowConfigWithPatcher } from "./src/types";
 import { detectFlow } from "./src/detectFlow";
 import { KNOWN_LANGUAGES } from "./src/languages";
@@ -98,7 +98,7 @@ class RootPage extends ListView<{}> {
     return [
       new ListItem({
         title: `Zepp Flow (${version}) detected`,
-        description: `Language: ${this.flowInstance.language}\nVoice: ${this.flowInstance.voice}`
+        description: `ZeppConfig ${VERSION}\nCurrent langauge: ${this.flowInstance.language}`
       }),
       this.getAccountRegionStatus(),
       new SectionHeaderComponent('Change language'),
